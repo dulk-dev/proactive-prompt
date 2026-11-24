@@ -1,0 +1,18 @@
+# 本地运行时状态：按设计不进版本库
+state.json
+state.*.json
+*.state.json
+
+# 部署侧连接信息：库 ID、表格链接、文件路径。若存成本地文件，一律不进库
+.env
+.env.*
+config*.json
+
+# macOS
+.DS_Store
+
+# 编辑器 / IDE
+.idea/
+.vscode/
+*.swp
+*~
